@@ -1,0 +1,84 @@
+[
+  {
+    "classes": "row m-0",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "data": [
+            {
+              "id": 20,
+              "image": "/media/website/hushaan-fromtinyisles-KfCCOfmhPYc-unsplash.jpg",
+              "title": "Admission"
+            }
+          ]
+        },
+        "classes": "",
+        "component": "HeaderImage"
+      }
+    ]
+  },
+  {
+    "classes": "row m-0 container mx-auto mt-ne-5 position-relative",
+    "component": "Row",
+    "components": [
+      {
+        "component": "Row",
+        "classes": "col-md-6 position-relative p-1",
+        "components": [
+          {
+            "tag": "admission_left_box",
+            "name": "باس سمت چپ",
+            "props": {
+            },
+            "classes": "background0 rounded h-100 pt-4",
+            "component": "Introduction"
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "classes": "col-md-6 position-relative p-1",
+        "components": [
+          {
+            "tag": "admission_right_box",
+            "name": "باس سمت راست",
+            "props": {
+            },
+            "classes": "background0 rounded h-100 pt-4",
+            "component": "Introduction"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "row 7",
+    "classes": "mt-5 col-12 container mx-auto mb-4",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "align": "center",
+          "title": "Degrees"
+        },
+        "classes": "col-md-12 p-0",
+        "component": "MyTitle"
+      },
+      {
+        "component": "SlideBox",
+        "classes": "container mx-auto mt-5",
+        "tag": "admission_degrees",
+        "name": "رشته های تحصیلی",
+        "props": {
+          "type": "simple",
+          "margin": 100,
+          "box_type": 0,
+          "iconSize": 65,
+          "show-count": 4,
+          "page_size": 100
+        }
+      }
+    ]
+  }
+]

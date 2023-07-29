@@ -1,0 +1,1012 @@
+{
+  "data": [
+    {
+      "name": "row 1",
+      "classes": "row",
+      "component": "Row",
+      "components": [
+        {
+          "tag": "index",
+          "name": "اسلایدر",
+          "props": {
+            "data": {
+              "count": 3,
+              "next": null,
+              "previous": null,
+              "results": [
+                {
+                  "id": 1,
+                  "image": "http://websiteapi.vru.ac.ir/media/website/13980424_Khayam.jpg",
+                  "tag": "index"
+                },
+                {
+                  "id": 2,
+                  "image": "http://websiteapi.vru.ac.ir/media/website/13980224_Night01.jpg",
+                  "tag": "index"
+                },
+                {
+                  "id": 3,
+                  "image": "http://websiteapi.vru.ac.ir/media/website/13980424_up_view.jpg",
+                  "tag": "index"
+                }
+              ]
+            }
+          },
+          "classes": "col-12 p-0",
+          "component": "Slider",
+          "page_size": 100
+        }
+      ]
+    },
+    {
+      "name": "row 2",
+      "classes": "container mx-auto",
+      "component": "Row",
+      "components": [
+        {
+          "tag": "index",
+          "name": "سرویس ها",
+          "props": {
+            "id": "services",
+            "nav": true,
+            "type": "simple",
+            "margin": 10,
+            "box_type": 0,
+            "iconSize": 55,
+            "show-count": 6,
+            "data": {
+              "count": 14,
+              "next": null,
+              "previous": null,
+              "results": [
+                {
+                  "id": 19,
+                  "title": "سامانه گلستان",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg",
+                  "link": "https://golestan.vru.ac.ir/home/Default.htm",
+                  "tag": "index"
+                },
+                {
+                  "id": 19,
+                  "title": "سامانه گلستان",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg",
+                  "link": "https://golestan.vru.ac.ir/home/Default.htm",
+                  "tag": "index"
+                },
+                {
+                  "id": 20,
+                  "title": "ویانا اساتید",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D9%88%DB%8C%D8%A7%D9%86%D8%A7_%D8%A7%D8%B3%D8%A7%D8%AA%DB%8C%D8%AF.svg",
+                  "link": "https://viannaadmin.vru.ac.ir",
+                  "tag": "index"
+                },
+                {
+                  "id": 21,
+                  "title": "ویانا دانشجویان",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D9%88%DB%8C%D8%A7%D9%86%D8%A7_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86.svg",
+                  "link": "https://vianna.vru.ac.ir",
+                  "tag": "index"
+                },
+                {
+                  "id": 22,
+                  "title": "ایمیل اساتید",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%A7%DB%8C%D9%85%DB%8C%D9%84_%D8%A7%D8%B3%D8%A7%D8%AA%DB%8C%D8%AF.svg",
+                  "link": "https://mail.vru.ac.ir",
+                  "tag": "index"
+                },
+                {
+                  "id": 23,
+                  "title": "ایمیل دانشجویی",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%A7%DB%8C%D9%85%DB%8C%D9%84_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86.svg",
+                  "link": "https://stu.vru.ac.ir/",
+                  "tag": "index"
+                },
+                {
+                  "id": 24,
+                  "title": "خِرَد",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%A8%D9%88%D8%B3%D8%AA%D8%A7%D9%86.svg",
+                  "link": "http://kherad.vru.ac.ir/",
+                  "tag": "index"
+                },
+                {
+                  "id": 25,
+                  "title": "پروفایل اساتید",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84_%D8%A7%D8%B3%D8%A7%D8%AA%DB%8C%D8%AF.svg",
+                  "link": "https://profile.vru.ac.ir/",
+                  "tag": "index"
+                },
+                {
+                  "id": 26,
+                  "title": "پیوند",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D9%BE%DB%8C%D9%88%D9%86%D8%AF.svg",
+                  "link": "https://peyvand.vru.ac.ir/OfficeAS/UI/login.php",
+                  "tag": "index"
+                },
+                {
+                  "id": 27,
+                  "title": "پویا",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D9%BE%D9%88%DB%8C%D8%A7.svg",
+                  "link": "http://pooya.vru.ac.ir/gateway/PuyaAuthenticate.php",
+                  "tag": "index"
+                },
+                {
+                  "id": 28,
+                  "title": "فارغ التحصیلان",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%AF%D8%A7%D9%86%D8%B4_%D8%A2%D9%85%D9%88%D8%AE%D8%AA%DA%AF%D8%A7%D9%86.svg",
+                  "link": "http://alumni.vru.ac.ir/",
+                  "tag": "index"
+                },
+                {
+                  "id": 29,
+                  "title": "کتابخانه مرکزی",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87_%D9%85%D8%B1%DA%A9%D8%B2%DB%8C.svg",
+                  "link": "http://library.vru.ac.ir/",
+                  "tag": "index"
+                },
+                {
+                  "id": 30,
+                  "title": "نگارستان",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D9%86%DA%AF%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86.svg",
+                  "link": "https://negarestan.vru.ac.ir/",
+                  "tag": "index"
+                },
+                {
+                  "id": 31,
+                  "title": "آزمایشگاه مرکزی",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87_%D9%85%D8%B1%DA%A9%D8%B2%DB%8C.svg",
+                  "link": "https://laboratory.vru.ac.ir",
+                  "tag": "index"
+                },
+                {
+                  "id": 100,
+                  "title": "fsd",
+                  "subtitle": null,
+                  "icon": "http://websiteapi.vru.ac.ir/media/website/roshd_K5DZmFi.png",
+                  "link": null,
+                  "tag": "index"
+                }
+              ]
+            }
+          },
+          "classes": "services col-12",
+          "component": "SlideBox",
+          "page_size": 100
+        }
+      ]
+    },
+    {
+      "name": "row 2",
+      "classes": "container mx-auto",
+      "component": "Row",
+      "components": [
+        {
+          "tag": "index",
+          "name": "سرویس ها",
+          "classes": "col-12 mt-5",
+          "component": "InfoBox0",
+          "props": {
+            "data": {
+              "count": 14,
+              "next": null,
+              "previous": null,
+              "results": [
+                {
+                  "title": "test",
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque, autem corporis delectus dolore dolorem eligendi est eveniet hic ipsam ipsum, itaque minima modi quae quo saepe, sapiente sequi.",
+                  "icon0": "http://websiteapi.vru.ac.ir/media/website/%D8%A7%DB%8C%D9%85%DB%8C%D9%84_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86.svg",
+                  "icon0_title": "title 0",
+                  "icon1": "http://websiteapi.vru.ac.ir/media/website/%D8%A7%DB%8C%D9%85%DB%8C%D9%84_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86.svg",
+                  "icon1_title": "title 1",
+                  "icon2": "http://websiteapi.vru.ac.ir/media/website/%D8%A7%DB%8C%D9%85%DB%8C%D9%84_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86.svg",
+                  "icon2_title": "title 2",
+                  "icon3": "http://websiteapi.vru.ac.ir/media/website/%D8%A7%DB%8C%D9%85%DB%8C%D9%84_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86.svg",
+                  "icon3_title": "title 3"
+                }
+              ]
+            }
+          },
+          "page_size": 100
+        }
+      ]
+    },
+    {
+      "name": "row 2",
+      "classes": "container mx-auto",
+      "component": "Row",
+      "components": [
+        {
+          "classes": "p-0 m-0",
+          "component": "MyTitle",
+          "props": {
+            "align": "center",
+            "title": "اخبار"
+          }
+        },
+        {
+          "tag": "index",
+          "name": "اخبار",
+          "classes": "col-12 mt-3",
+          "component": "News1",
+          "props": {
+            "data": {
+              "count": 1124,
+              "next": "http://websiteapi.vru.ac.ir/website/fetch/index?page=2",
+              "previous": null,
+              "results": [
+                {
+                  "id": 1124,
+                  "images": [
+                    {
+                      "id": 7631,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-03-43.jpg",
+                      "news": 1124
+                    },
+                    {
+                      "id": 7632,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-04-32.jpg",
+                      "news": 1124
+                    },
+                    {
+                      "id": 7633,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-04-30.jpg",
+                      "news": 1124
+                    },
+                    {
+                      "id": 7634,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-04-28.jpg",
+                      "news": 1124
+                    },
+                    {
+                      "id": 7635,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-04-06.jpg",
+                      "news": 1124
+                    },
+                    {
+                      "id": 7636,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-03-43.jpg",
+                      "news": 1124
+                    }
+                  ],
+                  "title": "دوره آموزش نظام آراستگی محیط کار در سازمان برگزار شد",
+                  "subtitle": null,
+                  "text": "<p><strong><span>دوره آموزش نظام آراستگی محیط کار در سازمان برگزار شد</span></strong></p>\n<p><span>به گزارش روابط عمومی دانشگاه ولی عصر(عج) رفسنجان، روز یکشنبه مورخ ۱۷ دی ماه ۱۴۰۱ آخرین جلسه از دوره آموزشی نظام آراستگی محیط کار در سازمان، با تدریس دکتر سلیم کریمی برگزار شد.</span></p>",
+                  "date": "2023-01-08",
+                  "tag": "index"
+                },
+                {
+                  "id": 1123,
+                  "images": [
+                    {
+                      "id": 7626,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-07_17-07-45.jpg",
+                      "news": 1123
+                    },
+                    {
+                      "id": 7627,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-07_17-07-48.jpg",
+                      "news": 1123
+                    },
+                    {
+                      "id": 7628,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-07_17-07-48-2.jpg",
+                      "news": 1123
+                    },
+                    {
+                      "id": 7629,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-07_17-07-47.jpg",
+                      "news": 1123
+                    },
+                    {
+                      "id": 7630,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-07_17-07-45.jpg",
+                      "news": 1123
+                    }
+                  ],
+                  "title": "دیدار صمیمی رئیس دانشگاه ولی عصر (عج) با مدیر عامل باشگاه صنعت مس رفسنجان",
+                  "subtitle": null,
+                  "text": "<p><span>رئیس دانشگاه ولی عصر (عج) رفسنجان با مدیر عامل باشگاه صنعت مس رفسنجان عصر امروز شنبه ۱۷ دی ماه دیدار و گفتگو کرد.</span><br /><span>به گزارش روابط عمومی دانشگاه ولی عصر (عج) رفسنجان، دکتر رنجبرکریمی در این دیدار اظهار داشت: دانشگاه ولی‌عصر (عج) رفسنجان بعد از دانشگاه کاشان در رتبه دوم دانشگاه های غیر مرکز استان، در کل کشور است.</span><br /><span>وی افزود: این دانشگاه توانسته در سال های گذشته نقش پررنگی در برطرف کردن نیازهای رفسنجان و استان کرمان داشته باشد که از آن جمله می توان از تولید مواد ضدعفونی‌ و الکل در دوران کرونا و همچنین آنالیز روغن وولک جهت بخش کشاورزی در استان کرمان نام برد. </span><br /><span>رئیس دانشگاه ولی عصر (عج) رفسنجان ادامه داد: در همه شاخص های علمی و فناوری، از جمله مراکز دانش بنیان و فناور در استان کرمان، برتر هستیم.</span><br /><span>پورمحمدی مدیر عامل باشگاه مس رفسنجان نیز بیان داشت: باشگاه مس رفسنجان دارای ۵ تیم مختلف در لیگ برتر است و علاوه بر آن در رشته های ورزشی انفرادی مختلف نیز در لیگ برتر حضور داریم.</span><br /><span>در ادامه این دیدار راجع به همکاری های بین دانشگاه ولی عصر (عج) و باشگاه صنعت مس رفسنجان در قالب تفاهم نامه های موجود و راهکارهایی جهت همکاری های بیشتر دو طرف در مسائل مختلف ورزشی و همچنین فرهنگی بحث و تبادل نظر شد.</span><br /><span>بحث احیای مجموعه ورزشی موزه، استفاده باشگاه مس از امکانات ورزشی دانشگاه و همچنین مشارکت در برگزاری کنگره سردار حاج علی محمدی پور از جمله مواردی بود که در قالب تفاهم نامه های بین دو طرف مورد بحث و گفتگو قرار گرفت.</span><br /><span>شایان ذکر است در این دیدار معاونان توسعه و فرهنگی، مدیران حقوقی و طرح های عمرانی دانشگاه ولی عصر (عج) رفسنجان هم حضور داشتند.</span></p>",
+                  "date": "2023-01-08",
+                  "tag": "index"
+                },
+                {
+                  "id": 1122,
+                  "images": [
+                    {
+                      "id": 7617,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-15-2.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7618,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-16-2.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7619,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-19-2.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7620,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-17.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7621,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-19.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7622,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-18.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7623,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-18-2.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7624,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-15.jpg",
+                      "news": 1122
+                    },
+                    {
+                      "id": 7625,
+                      "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-03_10-44-15-2.jpg",
+                      "news": 1122
+                    }
+                  ],
+                  "title": "دیدار دختران آفتاب با رئیس دانشگاه ولی عصر (عج) رفسنجان",
+                  "subtitle": null,
+                  "text": "<p><strong><span>دیدار دختران آفتاب با رئیس دانشگاه ولی عصر (عج) رفسنجان</span></strong></p>\n<p><span>به مناسبت سالگرد شهادت حاج قاسم سلیمانی و تجدید میثاق با آرمان‌های شهدا تعدادی از خردسالان کونگ فوکار باشگاه دختران آفتاب با رئیس دانشگاه ولی عصر (عج) رفسنجان دیدار و گفتگو کردند.</span><br /><span>به گزارش روابط عمومی دانشگاه ولی عصر (عج) رفسنجان، این ورزشکاران خردسال با هدف ترویج حجاب برای نسل امروز و یادآوری مقام و جایگاه زن و دختر پیشقدم شدند که با مسئولین شهرستان دیدار و گفتگو کنند.</span><br /><span>خوشبختانه این طرح به عنوان یک حرکت فرهنگی مورد استقبال بی‌نظیر مسئولین شهرستان قرار گرفت و در ادارات تربیت بدنی، شهرداری، شورای شهر، دانشگاه‌ها و ناحیه مقاومت بسیج رفسنجان با همکاری باشگاه دختران آفتاب، بسیج دانشجویی و گردان رزمی کوثر فدک انجام شد.</span></p>",
+                  "date": "2023-01-04",
+                  "tag": "index"
+                }
+              ]
+            }
+          },
+          "page_size": 100
+        }
+      ]
+    },
+    {
+      "name": "row 2",
+      "classes": "background0 pt-2 mt-5",
+      "component": "Row",
+      "components": [
+        {
+          "tag": "index",
+          "name": "اخبار",
+          "classes": "col-12 mt-5",
+          "component": "InfoBox1",
+          "props": {
+            "title": "مراکز رشد",
+            "data": {
+              "count": 1124,
+              "next": null,
+              "previous": null,
+              "results": [
+                {
+                  "title": "شرکت های دانش بنیان",
+                  "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-03-43.jpg",
+                  "items": [
+                    {
+                      "title": "test 0",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    },
+                    {
+                      "title": "test 1",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی 1",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    },
+                    {
+                      "title": "test 2",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    }
+                  ]
+                },
+                {
+                  "title": "شرکت های دانش بنیان",
+                  "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-03-43.jpg",
+                  "items": [
+                    {
+                      "title": "test 0",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    },
+                    {
+                      "title": "test 1",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی 1",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    },
+                    {
+                      "title": "test 2",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    }
+                  ]
+                },
+                {
+                  "title": "شرکت های دانش بنیان",
+                  "image": "http://websiteapi.vru.ac.ir/media/website/photo_2023-01-02_16-03-43.jpg",
+                  "items": [
+                    {
+                      "title": "test 0",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    },
+                    {
+                      "title": "test 1",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی 1",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    },
+                    {
+                      "title": "test 2",
+                      "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است لورم ایپسوم متن ساختگی",
+                      "icon": "http://websiteapi.vru.ac.ir/media/website/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.svg"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "page_size": 100
+        }
+      ]
+    },
+    {
+      "name": "row",
+      "classes": "mt-5 container mx-auto",
+      "component": "Row",
+      "components": [
+        {
+          "props": {
+            "align": "center",
+            "title": "رویدادها"
+          },
+          "classes": "col-md-12 p-0",
+          "component": "MyTitle"
+        },
+        {
+          "tag": "index",
+          "name": "رویدادها",
+          "props": {
+            "data": {
+              "count": 2,
+              "next": null,
+              "previous": null,
+              "results": [
+                {
+                  "id": 2,
+                  "title": "برگزاری فلان چیز در فلان جا",
+                  "text": "<p>tesddfsdf</p>",
+                  "image": "http://websiteapi.vru.ac.ir/media/website/photo_2022-12-31_10-57-39-custom_crop.jpg",
+                  "date": "2022-12-31",
+                  "tag": "index"
+                },
+                {
+                  "id": 3,
+                  "title": "fsd",
+                  "text": "<p>fsdfsdf</p>",
+                  "image": "http://websiteapi.vru.ac.ir/media/website/pexels-pixabay-414144_Fi9INPB.jpg",
+                  "date": "2023-01-02",
+                  "tag": "index"
+                }
+              ]
+            }
+          },
+          "classes": "mt-3 row col-md-12",
+          "component": "Event1",
+          "page_size": 10
+        }
+      ]
+    },
+    {
+      "name": "row",
+      "classes": "mt-5 container mx-auto",
+      "component": "Row",
+      "components": [
+        {
+          "tag": "index",
+          "name": "شرکت ها",
+          "props": {
+            "title": "شرکت های مستقر",
+            "link": "/p/companies",
+            "data": [
+              {
+                "name": "دانش بنیان",
+                "data": {
+                  "count": 20,
+                  "next": null,
+                  "previous": null,
+                  "results": [
+                    {
+                      "id": 1,
+                      "name": "Tanaka Yuna",
+                      "manager": "y8w4UJH9YJ",
+                      "founded_year": 334,
+                      "personnel_count": "Q5S6Q2l8Py",
+                      "tel": "HzvkI16yHq",
+                      "address": "908 East Wangfujing Street, Dongcheng District ",
+                      "website": "xSBUw9b0fx",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "xskqUzdr45",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 1
+                    },
+                    {
+                      "id": 3,
+                      "name": "Loui Ka Man",
+                      "manager": "2dmaTRYZuU",
+                      "founded_year": 767,
+                      "personnel_count": "2GzJynV8k7",
+                      "tel": "frgfIGZ8cB",
+                      "address": "747 Ganlan Rd, Pudong",
+                      "website": "amADqGNSBa",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "cRVAPFQM88",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 4,
+                      "name": "Louis Ortiz",
+                      "manager": "UIfzT4f8iL",
+                      "founded_year": 260,
+                      "personnel_count": "1AwDA6Vzlx",
+                      "tel": "4Xe4sGMLT3",
+                      "address": "732 North Michigan Ave",
+                      "website": "N2nhmGnOgX",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "C5zzY2oe34",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 1
+                    },
+                    {
+                      "id": 5,
+                      "name": "Che Ching Wan",
+                      "manager": "Qq4RrckT4h",
+                      "founded_year": 215,
+                      "personnel_count": "4YXv3zcrA4",
+                      "tel": "DAXLcr7RV1",
+                      "address": "919 Volac Park, Grantchester Rd",
+                      "website": "UKBoaJfKam",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "6DI7Qoz37I",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 6,
+                      "name": "Ishii Yamato",
+                      "manager": "V4rnT7xEHe",
+                      "founded_year": 99,
+                      "personnel_count": "hI8kHVFso9",
+                      "tel": "zbTTdPDW2g",
+                      "address": "813 68 Qinghe Middle St, Haidian District",
+                      "website": "s3m4Vrt5RQ",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "yf0vUI2Pop",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 7,
+                      "name": "Sheila Hawkins",
+                      "manager": "yiuzLKQH40",
+                      "founded_year": 876,
+                      "personnel_count": "xCqixMphGu",
+                      "tel": "tnrvLry5eE",
+                      "address": "922 Qingshuihe 1st Rd, Luohu District",
+                      "website": "djnTHYQhmr",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "bFu2WcNvI4",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 9,
+                      "name": "David Brooks",
+                      "manager": "UM6h9SpNWr",
+                      "founded_year": 6,
+                      "personnel_count": "dlp2O64LBA",
+                      "tel": "6wQMy1lQwQ",
+                      "address": "13 Wall Street",
+                      "website": "FGIRa5GDIY",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "fMNhrT2QMv",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 10,
+                      "name": "Tse Lai Yan",
+                      "manager": "gBUBeTA4pe",
+                      "founded_year": 915,
+                      "personnel_count": "76tvFVjDDN",
+                      "tel": "tMdw7T2S6G",
+                      "address": "119 Trafalgar Square, Charing Cross",
+                      "website": "s3MdYPS3e4",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "T4jGam4L4P",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 11,
+                      "name": "Tao Zhennan",
+                      "manager": "MMLQxf8rNU",
+                      "founded_year": 270,
+                      "personnel_count": "zER6FBIgpY",
+                      "tel": "kZzOcB5x43",
+                      "address": "503 Osney Mead",
+                      "website": "l4FcBsTfOU",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "c6JTYnaVKk",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 1
+                    },
+                    {
+                      "id": 14,
+                      "name": "Hung Cho Yee",
+                      "manager": "cWhs3foytf",
+                      "founded_year": 258,
+                      "personnel_count": "tjIdweSf8j",
+                      "tel": "EXFmqigDe9",
+                      "address": "837 Bank Street",
+                      "website": "ipKCoxJpqM",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "gGZ9RxB4Zz",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 1
+                    },
+                    {
+                      "id": 16,
+                      "name": "Uchida Eita",
+                      "manager": "gg9mQyIPj2",
+                      "founded_year": 411,
+                      "personnel_count": "xfqYlZwGZk",
+                      "tel": "OlQ5sdUcnY",
+                      "address": "65 Silver St, Newnham",
+                      "website": "4L9Q82NcVo",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "Gqa1iVfOpu",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 17,
+                      "name": "Nakamori Kasumi",
+                      "manager": "tisCczMmdm",
+                      "founded_year": 15,
+                      "personnel_count": "ckZgblFI5W",
+                      "tel": "BVzJMDBlJU",
+                      "address": "655 Bank Street",
+                      "website": "XLYeNLHaSh",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "z82L7IbEYv",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 19,
+                      "name": "Lori Herrera",
+                      "manager": "EXpKibsJP6",
+                      "founded_year": 281,
+                      "personnel_count": "aqgrFq3WQF",
+                      "tel": "7yuSAirr7i",
+                      "address": "88 Hanover Street",
+                      "website": "FdyW8dEuEC",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "ZDYNTso7or",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 1
+                    },
+                    {
+                      "id": 21,
+                      "name": "Chiang Hok Yau",
+                      "manager": "Niy3eIpgEy",
+                      "founded_year": 969,
+                      "personnel_count": "6wRjtCAF27",
+                      "tel": "TRTeFgl7oH",
+                      "address": "208 Grape Street",
+                      "website": "I8wDnTCXrU",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "pl84KL4yHl",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 22,
+                      "name": "Jin Zhennan",
+                      "manager": "dtYiHULfHj",
+                      "founded_year": 994,
+                      "personnel_count": "GzQVwZ4yjq",
+                      "tel": "4vQDPSZ27l",
+                      "address": "1-7-20 Saidaiji Akodacho",
+                      "website": "Og7A6lDR7f",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "FC7BeEkE5T",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 24,
+                      "name": "Ikeda Rena",
+                      "manager": "qKlf3yQv2u",
+                      "founded_year": 352,
+                      "personnel_count": "n79eSyGtsA",
+                      "tel": "IzMtBEery6",
+                      "address": "391 Elms Rd, Botley",
+                      "website": "4ibYtCbJ9u",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "YgO4pCmkeu",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 1
+                    },
+                    {
+                      "id": 26,
+                      "name": "Tam Wing Fat",
+                      "manager": "mHxjJXnwN8",
+                      "founded_year": 477,
+                      "personnel_count": "hh8GmU2Zlx",
+                      "tel": "TCopS0Sgr4",
+                      "address": "278 Sanlitun Road, Chaoyang District",
+                      "website": "XWq4EuqjeM",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "WPu3YvPnTQ",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 1
+                    },
+                    {
+                      "id": 27,
+                      "name": "Gu Rui",
+                      "manager": "KhICAKXNnx",
+                      "founded_year": 934,
+                      "personnel_count": "cR91a4ztoZ",
+                      "tel": "Qz5sh24WTV",
+                      "address": "388 Ridgewood Road",
+                      "website": "rSBYtoGqax",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "mS9sruR4Z3",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 28,
+                      "name": "Ku On Na",
+                      "manager": "pXnGN5LS0D",
+                      "founded_year": 727,
+                      "personnel_count": "wgRGyA7KOj",
+                      "tel": "X5AuWVX2H0",
+                      "address": "5-19-4 Shinei 4 Jo, Kiyota Ward",
+                      "website": "72cotkn5kh",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "c4g6ArWm4Y",
+                      "filed": 2,
+                      "type": 1,
+                      "location": 2
+                    },
+                    {
+                      "id": 29,
+                      "name": "Dai Shihan",
+                      "manager": "VbQ2StEjJn",
+                      "founded_year": 367,
+                      "personnel_count": "ZUXGFI52lO",
+                      "tel": "hmoRX8nM7x",
+                      "address": "5-2-11 Kikusui 3 Jo, Shiroishi Ward",
+                      "website": "brGVG7pBdA",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "g7StGsVU0p",
+                      "filed": 1,
+                      "type": 1,
+                      "location": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "خلاق",
+                "data": {
+                  "count": 10,
+                  "next": null,
+                  "previous": null,
+                  "results": [
+                    {
+                      "id": 2,
+                      "name": "Yang Jiehong",
+                      "manager": "wrdST9BTzT",
+                      "founded_year": 743,
+                      "personnel_count": "ymFGnqdRdc",
+                      "tel": "WZvQhww0xR",
+                      "address": "303 2nd Zhongshan Road, Yuexiu District",
+                      "website": "8fmikjOf6D",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "uAlS4pYGgh",
+                      "filed": 1,
+                      "type": 2,
+                      "location": 2
+                    },
+                    {
+                      "id": 8,
+                      "name": "Kam Hui Mei",
+                      "manager": "icEHzWBgr6",
+                      "founded_year": 900,
+                      "personnel_count": "ZB9SHZvDPs",
+                      "tel": "GxOl8uwex0",
+                      "address": "640 Abingdon Rd, Cumnor",
+                      "website": "51p5viOIBr",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "E1E0yY2Hlm",
+                      "filed": 1,
+                      "type": 2,
+                      "location": 2
+                    },
+                    {
+                      "id": 12,
+                      "name": "Mori Kaito",
+                      "manager": "L7T73DwztW",
+                      "founded_year": 146,
+                      "personnel_count": "f2o7PUMXNh",
+                      "tel": "gaQKASInzc",
+                      "address": "No. 970, Shuangqing Rd, Chenghua District",
+                      "website": "hF3hhsjWdQ",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "F7aKfxhuic",
+                      "filed": 2,
+                      "type": 2,
+                      "location": 1
+                    },
+                    {
+                      "id": 13,
+                      "name": "Maeda Akina",
+                      "manager": "rFwgCvPPFn",
+                      "founded_year": 215,
+                      "personnel_count": "TMjcLEW1qt",
+                      "tel": "ECDLDD0QIy",
+                      "address": "2-5-2 Chitose, Atsuta Ward",
+                      "website": "vcwULZNXB1",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "dkahgrbajD",
+                      "filed": 2,
+                      "type": 2,
+                      "location": 1
+                    },
+                    {
+                      "id": 15,
+                      "name": "Chang Chun Yu",
+                      "manager": "V52GJe09xR",
+                      "founded_year": 825,
+                      "personnel_count": "KjIhvwve99",
+                      "tel": "3KLThWupe5",
+                      "address": "5-2-15 Higashi Gotanda, Shinagawa-ku ",
+                      "website": "hEI3CuvmPl",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "OUY3HR4JMj",
+                      "filed": 2,
+                      "type": 2,
+                      "location": 1
+                    },
+                    {
+                      "id": 18,
+                      "name": "Jiang Zitao",
+                      "manager": "vHyxOJ75EF",
+                      "founded_year": 724,
+                      "personnel_count": "QaXZw7XMzS",
+                      "tel": "xVWy1rx653",
+                      "address": "532 Lefeng 6th Rd",
+                      "website": "BDKi2dLmCj",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "3toH7pEECD",
+                      "filed": 1,
+                      "type": 2,
+                      "location": 1
+                    },
+                    {
+                      "id": 20,
+                      "name": "Katherine Wagner",
+                      "manager": "i2XAL5MIkS",
+                      "founded_year": 624,
+                      "personnel_count": "g8dlZrx783",
+                      "tel": "DrgqhyQuLP",
+                      "address": "381 Sky Way",
+                      "website": "7UDNzzqlwR",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "TApf4QskKx",
+                      "filed": 1,
+                      "type": 2,
+                      "location": 1
+                    },
+                    {
+                      "id": 23,
+                      "name": "Tan Yuning",
+                      "manager": "zR8m0lW63e",
+                      "founded_year": 781,
+                      "personnel_count": "JSvox8MJbi",
+                      "tel": "l5mxKNHOOx",
+                      "address": "917 Elms Rd, Botley",
+                      "website": "t9aNO84rHv",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "jAZ4Q3wmHo",
+                      "filed": 1,
+                      "type": 2,
+                      "location": 1
+                    },
+                    {
+                      "id": 25,
+                      "name": "Ku Wai San",
+                      "manager": "gjTP2fF2dA",
+                      "founded_year": 124,
+                      "personnel_count": "DTtt5PoISA",
+                      "tel": "kRqVowuYlv",
+                      "address": "43 East Alley",
+                      "website": "RYcb4mon3l",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "kb6gEa9wOs",
+                      "filed": 2,
+                      "type": 2,
+                      "location": 2
+                    },
+                    {
+                      "id": 30,
+                      "name": "Jiang Xiaoming",
+                      "manager": "qwpNKn2L4n",
+                      "founded_year": 524,
+                      "personnel_count": "m96C2UYtJ1",
+                      "tel": "PAKRJS39HS",
+                      "address": "2-1-6 Kaminopporo 1 Jo, Atsubetsu Ward",
+                      "website": "BXwHehlTg0",
+                      "logo": "http://localhost:8000/media/website/1db27d480838674248148205f5570fba28c64d6b2479f8a241ccbe07e243a1c8.jpg",
+                      "tag": "P8pBD4z2fQ",
+                      "filed": 1,
+                      "type": 2,
+                      "location": 2
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "classes": "mt-3 row col-md-12",
+          "component": "CompanyByType",
+          "page_size": 10
+        }
+      ]
+    }
+  ]
+}

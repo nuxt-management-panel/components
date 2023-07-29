@@ -1,0 +1,253 @@
+@import "colors";
+
+/* breakpoints */
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px
+);
+
+@each $key, $value in $themeColors {
+  .bg-#{$key} {
+    background-color: map-get($themeColors, $key) !important;
+  }
+}
+
+@each $key, $value in $lightColors {
+  .bg-light-#{$key} {
+    background-color: map-get($lightColors, $key) !important;
+  }
+}
+
+@each $key, $value in $themeColors {
+  .text-#{$key} {
+    color: map-get($themeColors, $key) !important;
+  }
+}
+
+
+@each $key, $value in $grid-breakpoints {
+  @media screen and (min-width: $value) {
+    $i: 10;
+    @while $i <= 100 {
+      .vw-#{$key}-#{$i} {
+        width: $i+vw !important;
+      }
+      $i: $i + 10;
+    }
+  }
+}
+
+.modal-backdrop {
+  --bs-backdrop-bg: transparent !important;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-hover-bg: transparent !important;
+  --bs-dropdown-link-active-bg: transparent !important;
+}
+
+/*---------------tables styles----------------*/
+
+.solid {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+table.solid tr td {
+  border-bottom: none;
+  height: 50px;
+  text-align: right !important;
+
+}
+
+table.solid tr th {
+  border-bottom: none !important;
+  height: 50px;
+  text-align: right !important;
+
+}
+
+.solid > tbody tr {
+  border-bottom: 0px !important;
+  border: none;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.solid > thead {
+  background-color: map-get($themeColors, primary) !important;
+
+}
+
+.solid > thead th:first-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.solid > thead th:last-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.solid > thead th {
+  color: white;
+}
+
+.solid > tbody {
+  background-color: map-get($themeColors, secondary) !important;
+}
+
+td {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.solid > tbody > tr th {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.solid > tbody > tr td:first-child {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.solid > tbody > tr td:last-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.solid > tbody tr:hover {
+  background-color: map-get($themeColors, gray04);
+}
+
+.solid tbody tr[disabled] {
+  color: map-get($themeColors, gray02);
+}
+
+.solid tbody tr[disabled]:hover {
+  background-color: inherit;
+}
+
+/*--------------------------------------*/
+.base {
+  border-collapse: separate;
+  border-spacing: 0px;
+  font-size: 14px;
+}
+
+.base > thead {
+  background-color: map-get($themeColors, secondary) !important;
+  color: map-get($themeColors, gray03);
+}
+
+
+.base tr td {
+  height: 50px;
+  text-align: right !important;
+}
+
+.base tr th {
+  height: 50px;
+  text-align: right !important;
+
+}
+
+
+.base tbody tr th {
+  border-right: 1px solid map-get($themeColors, gray04) !important;
+}
+
+.base tbody tr td:first-child {
+  border-right: 1px solid map-get($themeColors, gray04) !important;
+}
+
+.base tbody tr td:last-child {
+  border-left: 1px solid map-get($themeColors, gray04) !important;
+}
+
+
+.base thead tr th:first-child {
+  border-top: 1px solid map-get($themeColors, gray04);
+  border-right: 1px solid map-get($themeColors, gray04);
+  border-top-right-radius: 5px;
+}
+
+.base thead tr th:last-child {
+  border-top: 1px solid map-get($themeColors, gray04);
+  border-left: 1px solid map-get($themeColors, gray04);
+  border-top-left-radius: 5px;
+}
+
+.base thead tr th {
+  border-top: 1px solid map-get($themeColors, gray04);
+  border-bottom: 1px solid map-get($themeColors, gray04);
+}
+
+.base tbody tr:last-child th:first-child {
+  border-bottom-right-radius: 5px;
+}
+
+.base tbody tr:last-child td:last-child {
+  border-bottom-left-radius: 5px;
+}
+
+.base > tbody tr:hover {
+  background-color: map-get($themeColors, secondary);
+}
+
+.base tbody tr[disabled] {
+  color: map-get($themeColors, gray03);
+}
+
+.base tbody tr[disabled]:hover {
+  background-color: inherit;
+}
+
+
+.base tbody tr.selected {
+  background-color: rgb(243, 246, 249, 0.5)
+
+}
+
+.base tbody tr.is-read {
+  background-color: white;
+}
+
+.base tbody tr.not-read {
+  background-color: map-get($themeColors, secondary);
+}
+
+
+/*--------------------------------------*/
+
+.simple {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+table.simple tr td {
+  border-bottom: none;
+  height: 50px;
+  text-align: right !important;
+
+}
+
+table.simple tbody tr th {
+  border-bottom: none !important;
+  height: 50px;
+  text-align: right !important;
+
+}
+
+
+

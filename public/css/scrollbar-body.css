@@ -1,0 +1,28 @@
+.scrollbar-body .os-scrollbar-handle-body {
+  width: 8px;
+  background-color: #B2B2B2;
+}
+
+.scrollbar-body .os-scrollbar-handle-body:hover {
+  width: 8px;
+  cursor: pointer;
+  background-color: #B2B2B2;
+}
+
+.os-scrollbar-unusable.os-scrollbar-visible {
+  opacity: 0;
+}
+
+.os-theme-none.os-scrollbar {
+  display: block !important;
+}
+
+.os-viewport {
+  scrollbar-width: none;
+}
+
+.os-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+/*# sourceMappingURL=scrollbar-body.css.map */

@@ -1,0 +1,210 @@
+[
+  {
+    "name": "row 1",
+    "classes": "row",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "index",
+        "name": "اسلایدر بالا",
+        "props": {},
+        "classes": "col-12 p-0",
+        "component": "Slider",
+        "page_size": 100
+      }
+    ]
+  },
+  {
+    "name": "row 2",
+    "classes": "container mx-auto",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "index",
+        "name": "سرویس ها",
+        "props": {
+          "id": "services",
+          "nav": true,
+          "type": "simple",
+          "margin": 10,
+          "box_type": 0,
+          "iconSize": 55,
+          "show-count": 7,
+        },
+        "classes": "services col-12",
+        "component": "SlideBox",
+        "page_size": 100
+      }
+    ]
+  },
+  {
+    "name": "row 3",
+    "classes": "row container mx-auto mt-4",
+    "component": "Row",
+    "components": [
+      {
+        "classes": "col-lg-8 m-0 p-0",
+        "component": "Row",
+        "components": [
+          {
+            "props": {
+              "align": "start",
+              "title": "اخبار"
+            },
+            "classes": "p-0 m-0 ms-2",
+            "component": "MyTitle"
+          },
+          {
+            "tag": "index",
+            "name": "اخبار",
+            "props": {
+              "type": "index"
+            },
+            "classes": "m-0 p-0 mt-4",
+            "component": "News",
+            "page_size": 10
+          }
+        ]
+      },
+      {
+        "classes": "col-lg-4 m-0 p-0",
+        "component": "Row",
+        "components": [
+          {
+            "tag": "fa_index",
+            "props": {
+              "align": "start",
+              "title": "اطلاعیه ها"
+            },
+            "classes": "p-0 m-0 ms-2",
+            "component": "MyTitle"
+          },
+          {
+            "tag": "index",
+            "name": "اطلاعیه ها",
+            "props": {},
+            "classes": "p-0 m-0 mt-4",
+            "component": "Notification",
+            "page_size": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "row 4",
+    "classes": "mt-5",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "index",
+        "name": "تقویم آموزشی",
+        "props": {},
+        "classes": "col-12 p-0",
+        "component": "EducationCalender",
+        "page_size": 100
+      }
+    ]
+  },
+  {
+    "name": "row 5",
+    "classes": "mt-5 col-12 container mx-auto",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "align": "center",
+          "title": "نمایه آموزشی"
+        },
+        "classes": "col-md-12 p-0",
+        "component": "MyTitle"
+      },
+      {
+        "tag": "index",
+        "name": "نمایه اموزشی",
+        "props": {
+          "iconSize": 50
+        },
+        "classes": "mt-3 row col-md-12",
+        "component": "CounterBox",
+        "page_size": 100
+      }
+    ]
+  },
+  {
+    "name": "row 6",
+    "classes": "mt-5 col-12 container mx-auto",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "align": "center",
+          "title": "رویدادها"
+        },
+        "classes": "col-md-12 p-0",
+        "component": "MyTitle"
+      },
+      {
+        "tag": "index",
+        "name": "رویدادها",
+        "props": {},
+        "classes": "mt-3 row col-md-12",
+        "component": "Event",
+        "page_size": 10
+      }
+    ]
+  },
+  {
+    "name": "row 7",
+    "classes": "mt-5 col-12 container mx-auto",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "align": "center",
+          "title": "دانشکده ها"
+        },
+        "classes": "col-md-12 p-0",
+        "component": "MyTitle"
+      },
+      {
+        "tag": "index_faculties",
+        "name": "دانشکده ها",
+        "props": {
+          "id": "faculties",
+          "nav": true,
+          "type": "simple",
+          "margin": 10,
+          "iconSize": 100,
+          "background": "bg-white",
+          "show-count": 7
+        },
+        "classes": "mt-3 row col-md-12",
+        "component": "SlideBox",
+        "page_size": 100
+      }
+    ]
+  },
+  {
+    "name": "row 8",
+    "classes": "mt-5 col-12",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "index_other_links",
+        "name": "لینک های دیگر",
+        "props": {
+          "id": "other_link",
+          "nav": false,
+          "type": "stripe",
+          "margin": 0,
+          "iconSize": 70,
+          "show-count": 4
+        },
+        "classes": "",
+        "component": "SlideBox",
+        "page_size": 100
+      }
+    ]
+  }
+]

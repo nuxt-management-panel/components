@@ -1,0 +1,10 @@
+@import "colors";
+@import "components";
+
+.main-content {
+  background-color: map-get($themeColors, white);
+  border-radius: 7px;
+  min-height: calc(100vh - 100px);
+  padding: 32px;
+}
+

@@ -1,0 +1,527 @@
+body {
+    font-family: 'iranyekan', serif !important;
+    font-size: 1rem !important;
+    --ck-z-default: 2000;
+    --ck-z-modal: calc(var(--ck-z-default) + 1999);
+}
+.modal-backdrop{
+    z-index: -1 !important;
+}
+.en-font {
+    font-family: 'Roboto', sans-serif !important;
+}
+.ltr {
+    direction: ltr !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: inherit !important;
+}
+
+.object-fit-cover {
+    object-fit: cover !important;
+}
+
+.small {
+    font-size: .75rem !important;
+}
+
+#wrapper {
+    transition: transform 0.5s;
+}
+
+#wrapper.collapse.show {
+    transform: translate(0, 0);
+}
+
+#wrapper.collapsing {
+    transform: translate(106%, 0);
+}
+
+#wrapper .item .bi-chevron-down {
+    transform: rotate(0deg);
+}
+
+#wrapper .item.collapsed .bi-chevron-down {
+    transform: rotate(-90deg);
+}
+
+#wrapper .bi-chevron-down {
+    transition: all 0.3s;
+}
+
+#wrapper .item .bi-chevron-left {
+    transform: rotate(-90deg);
+}
+
+#wrapper .item.collapsed .bi-chevron-left {
+    transform: rotate(0deg);
+}
+
+#wrapper .bi-chevron-left {
+    transition: all 0.3s;
+}
+
+.main-bg-color {
+    color: white !important;
+    background-color: #1bc5bd !important;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact;
+}
+
+.main-color {
+    color: #1bc5bd !important;
+}
+
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #80c5c5 #b1eaea;
+    scrollbar-border-radius: 17px;
+    scrollbar-border: 4px solid #ffffff;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #80c5c5;
+    border-radius: 17px;
+    border: 4px solid #ffffff;
+}
+
+.scrollbar-hover {
+    direction: ltr;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    scrollbar-width: thin;
+    scrollbar-position: absolute;
+    scrollbar-color: #cff3e8 #ffffff;
+    scrollbar-border-radius: 17px;
+    scrollbar-border: 4px solid #ffffff;
+}
+
+.scrollbar-hover::-webkit-scrollbar {
+    width: 15px;
+}
+
+.scrollbar-hover::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.scrollbar-hover::-webkit-scrollbar-thumb {
+    background-color: #86baba;
+    border-radius: 17px;
+    border: 4px solid #ffffff;
+}
+
+.sidebar-selected {
+    color: red;
+}
+
+.table-row-color {
+    background-color: #f4f6f9 !important;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact;
+}
+
+.disabled-input {
+    background-color: #e9ecef !important;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact;
+}
+
+.dropdown-toggle::after {
+    margin-top: 0.5rem;
+}
+
+.water-bill-tbody {
+    height: 52vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+}
+
+.my-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    min-width: 3rem;
+    height: 2rem;
+    border: 0px;
+}
+
+.btn-outline-main {
+    color: #1bc5bd !important;
+    border-color: #1bc5bd !important;
+}
+
+.btn-outline-main:hover {
+    color: white !important;
+    background-color: #1bc5bd !important;
+}
+
+.btn-outline-main > * {
+    fill: #1bc5bd !important;
+}
+
+.btn-outline-main:hover > * {
+    fill: #FFFFFF !important;
+}
+
+.btn-main, .btn-main:focus {
+    color: #FFFFFF !important;
+    background-color: #1bc5bd !important;
+}
+
+.btn-main > *, .btn-main:focus > * {
+    fill: #FFFFFF;
+}
+
+.btn-main:hover {
+    color: #1bc5bd !important;
+    background-color: #FFFFFF !important;
+}
+
+.btn-main:hover > * {
+    fill: #1bc5bd;
+}
+
+.popover-title {
+    direction: ltr !important;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+#submenu ul li a, #submenu svg {
+    color: #3F4254;
+}
+
+#submenu h6 {
+    cursor: pointer;
+    color: #525254;
+    font-size: 14px;
+}
+
+#wrapper {
+    height: 100vh;
+    border-right: 1px dashed #c7c6c6;
+    white-space: nowrap
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #ffffff;
+    background-color: #1bc5bd;
+}
+
+.nav-link {
+    color: #1bc5bd;
+}
+
+.nav-link:hover {
+    color: #106a66;
+}
+
+.badge-w {
+    color: #ffa824;
+    background-color: #fff4de;
+    min-width: 5rem;
+    min-height: 1.5rem;
+    font-size: .8rem;
+    border-radius: 4px;
+}
+
+.badge-s {
+    color: #029e5f;
+    background-color: #deffe9;
+    width: 5rem;
+    height: 1.5rem;
+    font-size: .8rem;
+    border-radius: 4px;
+}
+
+.badge-d {
+    color: #ff2424;
+    background-color: #ffdede;
+    width: 5rem;
+    height: 1.5rem;
+    font-size: .8rem;
+    border-radius: 4px;
+}
+
+.btn-upload {
+    color: #383838;
+    background-color: #e4e7ea;
+    border: 2px solid #b2b2b2;
+    border-radius: 6px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+}
+
+#css-dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 300px;
+    height: 42px;
+    margin: 100px auto 0 auto;
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+}
+
+.text-error {
+    color: #dc3545 !important;
+}
+
+.bg-error {
+    background-color: #dc3545 !important;
+}
+
+.form-check-input:checked {
+    background-color: #1bc5bd;
+    border-color: #1bc5bd;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(0, 196, 159, 0.25);
+}
+
+label {
+    font-size: 13px;
+}
+
+.btn-add {
+    width: 40px;
+    height: 40px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.letter-content > * {
+    text-align: justify;
+}
+
+.form-control {
+    height: 40.8px !important;
+}
+
+/*************** shadows **************/
+
+
+
+.custom-control-input:checked::before {
+    color: #fff !important;
+    border-color: #1bc5bd !important;
+    background-color: #1bc5bd !important;
+    box-shadow: none !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1bc5bd !important;
+}
+
+/*************** Remove input number icon **************/
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.disable {
+    background: #e9ecef !important;
+}
+
+.input-size {
+    min-width: 30px;
+}
+
+
+@media print {
+
+    .noprint {
+        display: none;
+    }
+
+    .noborder {
+        border: 0px !important;
+    }
+
+    /*@page {*/
+    /*    size: 148mm 210mm;*/
+    /*    margin: 0;*/
+    /*}*/
+    body {
+        size: 148mm 210mm;
+        margin: 0;
+    }
+
+
+}
+
+.a5-paper {
+    width: 148mm;
+    min-height: 210mm;
+    text-align: justify;
+    object-fit: fill;
+    background-size: cover;
+}
+
+.a4-paper {
+    width: 210mm;
+    min-height: 297mm;
+    text-align: justify;
+    object-fit: fill;
+    background-size: cover;
+}
+
+.a4-paper-land {
+    width: 297mm;
+    min-height: 210mm;
+}
+
+
+.print-text > p {
+    padding-right: 2px !important;
+}
+
+.draggable {
+    touch-action: none;
+    user-select: none;
+    display: inline-block;
+    float: right;
+}
+
+.resizeable {
+    width: 120px;
+    margin: 1rem;
+    user-select: none;
+    color: black;
+    display: inline-block;
+    touch-action: none;
+    background-color: rgba(255, 255, 255, 0);
+
+    /* This makes things *much* easier */
+    box-sizing: border-box;
+}
+
+.submenu {
+    overflow-x: hidden;
+}
+
+.menu-items {
+    z-index: 1000;
+    height: 100vh;
+    width: 100px;
+}
+
+.square {
+    aspect-ratio: 1/1;
+}
+
+#wrapper {
+    width: 280px;
+}
+
+@media only screen and (max-width: 992px) {
+    #wrapper {
+        width: 275px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #wrapper {
+        width: 220px !important;
+    }
+}
+
+
+.form-check-label {
+    margin-top: 1px !important;
+    touch-action: none;
+    user-select: none;
+}
+
+.w-98 {
+    width: 98% !important;
+}
+
+.cursor {
+    cursor: pointer !important;
+}
+
+.ellipsis {
+    width: 100px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.card {
+    border: 0px !important;
+    box-shadow: 0 .5rem 1.4rem rgba(0, 0, 0, 0.09) !important;
+    border-radius: 7px !important;
+}
+
+.card-header {
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
+}
+
+.bg-grey {
+    background-color: #f4f6f9 !important;
+}
+
+.form-select {
+    height: 40.8px !important;
+}
+
+.page-link {
+    color: #1bc5bd !important;
+    border-color: #1bc5bd !important;
+}
+
+.page-link:hover {
+    color: white !important;
+    background-color: #1bc5bd !important;
+}
+
+.page-link-selected {
+    color: white !important;
+    border-color: #1bc5bd !important;
+    background-color: #1bc5bd !important;
+}
+
+.orgchart {
+    background: white !important;
+}
+
+
+

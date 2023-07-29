@@ -1,0 +1,25 @@
+@import "_colors.scss";
+.scrollbar-body .os-scrollbar-handle-body{
+  width:8px;
+  background-color: map-get($themeColors , gray03);;
+}
+.scrollbar-body .os-scrollbar-handle-body:hover{
+  width:8px;
+  cursor: pointer;
+  background-color: map-get($themeColors , gray03);
+}
+.os-scrollbar-unusable.os-scrollbar-visible
+{
+  opacity: 0;
+}
+//firefox settings
+.os-theme-none.os-scrollbar{
+  display: block !important;
+}
+.os-viewport{
+  scrollbar-width:none;
+}
+.os-viewport::-webkit-scrollbar{
+  display: none;
+}
+

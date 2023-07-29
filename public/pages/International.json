@@ -1,0 +1,123 @@
+[
+  {
+    "classes": "row m-0",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "data": [
+            {
+              "id": 20,
+              "image": "/media/website/hushaan-fromtinyisles-KfCCOfmhPYc-unsplash.jpg",
+              "title": "International"
+            }
+          ]
+        },
+        "classes": "",
+        "component": "HeaderImage"
+      }
+    ]
+  },
+  {
+    "classes": "row m-0 container mx-auto mt-ne-5 position-relative",
+    "component": "Row",
+    "components": [
+      {
+        "component": "Row",
+        "classes": "col-md-6 position-relative p-1",
+        "components": [
+          {
+            "tag": "international_left_box",
+            "props": {
+            },
+            "classes": "background0 rounded h-100 pt-4",
+            "component": "Introduction",
+            "name": "باکس سمت چپ"
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "classes": "col-md-6 position-relative p-1",
+        "components": [
+          {
+            "tag": "international_right_box",
+            "props": {
+            },
+            "classes": "background0 rounded h-100 pt-4",
+            "component": "Introduction",
+            "name": "باکس سمت راست"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "component": "Row",
+    "classes": "mt-4 background0 rounded container row m-0 pb-5 mx-auto",
+    "components": [
+      {
+        "component": "Row",
+        "classes": "col-md-6",
+        "components": [
+          {
+            "component": "Person",
+            "classes": "container mx-auto w-auto",
+            "name": "مدیر",
+            "tag": "international_boss",
+            "props": {
+              "type": "row",
+              "imageSize": 260,
+              "data": [
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "component": "Row",
+        "classes": "col-md-6",
+        "components": [
+          {
+            "component": "Person",
+            "classes": "container mx-auto w-auto",
+            "name": "کارشناس",
+            "tag": "international_expert",
+            "props": {
+              "type": "row",
+              "imageSize": 260,
+              "data": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "row 7",
+    "classes": "mt-5 col-12 container mx-auto mb-4",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "align": "center",
+          "title": "Adjunct Professors"
+        },
+        "classes": "col-md-12 p-0",
+        "component": "MyTitle"
+      },
+      {
+        "component": "Person",
+        "classes": "container mx-auto mt-3",
+        "tag": "adjunct_professors",
+        "name": "اساتید کمکی",
+        "page_size": 100,
+        "props": {
+          "type": "column",
+          "data": [
+          ]
+        }
+      }
+    ]
+  }
+]

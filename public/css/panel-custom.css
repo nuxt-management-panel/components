@@ -1,0 +1,13 @@
+html {
+    scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+html::-webkit-scrollbar-thumb {
+    width: 0;
+    background-color: transparent;
+}
+.offcanvas-backdrop{
+    z-index: 4996 !important;
+}

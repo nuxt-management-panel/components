@@ -1,0 +1,1493 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("public/fonts/icons/icomoon.eot?lpjghi");
+  src: url("public/fonts/icons/icomoon.eot?lpjghi#iefix") format("embedded-opentype"), url("public/fonts/icons/icomoon.ttf?lpjghi") format("truetype"), url("public/fonts/icons/icomoon.woff?lpjghi") format("woff"), url("public/fonts/icons/icomoon.svg?lpjghi#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Bars .path1:before {
+  content: "\e900";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Bars .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Bars .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Bars .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Bars .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Bars .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Building .path1:before {
+  content: "\e903";
+  transition: all 0.3s;
+  color: #B5B5C3;
+}
+
+.button-focus .icon-Building .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Building .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Building .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Calculator .path1:before {
+  content: "\e905";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Calculator .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Calculator .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Calculator .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Calculator .path5:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path5:before {
+  color: #1BC5BD;
+}
+
+.icon-Calculator .path6:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path6:before {
+  color: #1BC5BD;
+}
+
+.icon-Calculator .path7:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path7:before {
+  color: #1BC5BD;
+}
+
+.icon-Calculator .path8:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calculator .path8:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar .path1:before {
+  content: "\e90d";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Calendar .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Calendar .path3:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar .path4:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar .path5:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path5:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar .path6:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path6:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar .path7:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path7:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar .path8:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar .path8:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar-add .path1:before {
+  content: "\e915";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar-add .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Calendar-add .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar-add .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Calendar-add .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Calendar-add .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Check-list .path1:before {
+  content: "\e918";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Check-list .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Check-list .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Check-list .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Check-list .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Check-list .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Check-list .path4:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Check-list .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Check-list .path5:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Check-list .path5:before {
+  color: #1BC5BD;
+}
+
+.icon-Clock .path1:before {
+  content: "\e91d";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Clock .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Clock .path2:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Clock .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Dashboard .path1:before {
+  content: "\e91f";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Dashboard .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Dashboard .path2:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Dashboard .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Dashboard .path3:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Dashboard .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Dashboard .path4:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Dashboard .path4:before {
+  color: #B3E7E7;
+}
+
+.icon-Database .path1:before {
+  content: "\e923";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Database .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Database .path2:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Database .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Database .path3:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Database .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Database .path4:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Database .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Database .path5:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Database .path5:before {
+  color: #1BC5BD;
+}
+
+.icon-Database .path6:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Database .path6:before {
+  color: #1BC5BD;
+}
+
+.icon-Education .path1:before {
+  content: "\e929";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Education .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Education .path2:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Education .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Education .path3:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Education .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path1:before {
+  content: "\e92c";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path2:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path3:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path4:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path4:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path5:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path5:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path6:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path6:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path7:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path7:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path8:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path8:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path9:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path9:before {
+  color: #B3E7E7;
+}
+
+.icon-English-website .path10:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path10:before {
+  color: #1BC5BD;
+}
+
+.icon-English-website .path11:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-English-website .path11:before {
+  color: #1BC5BD;
+}
+
+.icon-Envelope .path1:before {
+  content: "\e937";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Envelope .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Envelope .path2:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: #E9E9ED;
+}
+
+.button-focus .icon-Envelope .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Envelope .path3:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: #E9E9ED;
+}
+
+.button-focus .icon-Envelope .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Exit .path1:before {
+  content: "\e93a";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Exit .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Exit .path2:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Exit .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Exit .path3:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Exit .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Faculty .path1:before {
+  content: "\e93d";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Faculty .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Faculty .path2:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Faculty .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Faculty .path3:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Faculty .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Faculty .path4:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Faculty .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Faculty .path5:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Faculty .path5:before {
+  color: #1BC5BD;
+}
+
+.icon-Filter .path1:before {
+  content: "\e942";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Filter .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Filter .path2:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Filter .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Filter .path3:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Filter .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Filter .path4:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Filter .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Filter .path5:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Filter .path5:before {
+  color: #1BC5BD;
+}
+
+.icon-Filter .path6:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Filter .path6:before {
+  color: #1BC5BD;
+}
+
+.icon-Financial .path1:before {
+  content: "\e948";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Financial .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Financial .path2:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Financial .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Flight .path1:before {
+  content: "\e94a";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Flight .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Flight .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Flight .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Flight .path3:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Flight .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-folder .path1:before {
+  content: "\e94d";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-folder .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-folder .path2:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-folder .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Home .path1:before {
+  content: "\e94f";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Home .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Home .path2:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Home .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Image .path1:before {
+  content: "\e951";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Image .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Image .path2:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Image .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Image .path3:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Image .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Invoice .path1:before {
+  content: "\e954";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Invoice .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Invoice .path2:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Invoice .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Invoice .path3:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Invoice .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Invoice .path4:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Invoice .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Layer .path1:before {
+  content: "\e958";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Layer .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Layer .path2:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Layer .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Layer .path3:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Layer .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-World .path1:before {
+  content: "\e985";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-World .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-World .path2:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-World .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-World .path3:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-World .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-World .path4:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-World .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Transport .path1:before {
+  content: "\e982";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Transport .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Transport .path2:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Transport .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Transport .path3:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Transport .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Transfer .path1:before {
+  content: "\e980";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Transfer .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Transfer .path2:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Transfer .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Statistic .path1:before {
+  content: "\e97c";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Statistic .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Statistic .path2:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Statistic .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Statistic .path3:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Statistic .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-Statistic .path4:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Statistic .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-Persian-website .path1:before {
+  content: "\e96f";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path2:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path3:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path4:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path4:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path5:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path5:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path6:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path6:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path7:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path7:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path8:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path8:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path9:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path9:before {
+  color: #B3E7E7;
+}
+
+.icon-Persian-website .path10:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path10:before {
+  color: #1BC5BD;
+}
+
+.icon-Persian-website .path11:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Persian-website .path11:before {
+  color: #1BC5BD;
+}
+
+.icon-Person .path1:before {
+  content: "\e97a";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Person .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Person .path2:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Person .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-People .path1:before {
+  content: "\e96b";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-People .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-People .path2:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-People .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-People .path3:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-People .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-People .path4:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-People .path4:before {
+  color: #B3E7E7;
+}
+
+.icon-Documents .path1:before {
+  content: "\e968";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Documents .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Documents .path2:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Documents .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Documents .path3:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Documents .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Levels .path1:before {
+  content: "\e95b";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Levels .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-Levels .path2:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Levels .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-List .path1:before {
+  content: "\e95d";
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-List .path1:before {
+  color: #B3E7E7;
+}
+
+.icon-List .path2:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-List .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-List .path3:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-List .path3:before {
+  color: #1BC5BD;
+}
+
+.icon-List .path4:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-List .path4:before {
+  color: #1BC5BD;
+}
+
+.icon-List .path5:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-List .path5:before {
+  color: #1BC5BD;
+}
+
+.icon-Note .path1:before {
+  content: "\e965";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Note .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Note .path2:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Note .path2:before {
+  color: #1BC5BD;
+}
+
+.icon-Note .path3:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Note .path3:before {
+  color: #B3E7E7;
+}
+
+.icon-Manager .path1:before {
+  content: "\e963";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Manager .path1:before {
+  color: #1BC5BD;
+}
+
+.icon-Manager .path2:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: #E9E9ED;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Manager .path2:before {
+  color: #B3E7E7;
+}
+
+.icon-Location .path1:before {
+  content: "\e962";
+  color: #B5B5C3;
+  transition: all 0.3s;
+}
+
+.button-focus .icon-Location .path1:before {
+  color: #1BC5BD;
+}
+
+/*# sourceMappingURL=icons.css.map */

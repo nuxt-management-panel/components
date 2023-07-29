@@ -1,0 +1,17 @@
+[
+  {
+    "name": "row 1",
+    "classes": "row",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "index",
+        "name": "اسلایدر بالا",
+        "props": {},
+        "classes": "col-12 p-0",
+        "component": "Slider",
+        "page_size": 100
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "classes": "row m-0",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "data": [
+            {
+              "id": 20,
+              "image": "/media/website/hushaan-fromtinyisles-KfCCOfmhPYc-unsplash.jpg",
+              "title": "Physics"
+            }
+          ]
+        },
+        "classes": "",
+        "component": "HeaderImage"
+      }
+    ]
+  },
+  {
+    "classes": "row m-0 background0 container mx-auto rounded mt-ne-5 position-relative",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "physics",
+        "props": {
+          "data": [
+          ]
+        },
+        "classes": "mt-5 mb-5",
+        "component": "Introduction"
+      }
+    ]
+  },
+  {
+    "name": "row 7",
+    "classes": "mt-3 col-12 container mx-auto",
+    "component": "Row",
+    "components": [
+      {
+        "classes": "mt-3 row col-md-12",
+        "component": "SlideBox",
+        "tag": "physics",
+        "name": "رشته ها",
+        "props": {
+          "id": "faculties",
+          "type": "box",
+          "margin": 10,
+          "direction": "ltr",
+          "iconSize": 45,
+          "background": "bg-white",
+          "show-count": 3,
+          "data": [
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "row 7",
+    "classes": "mt-5 col-12 container mx-auto mb-4",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "align": "center",
+          "title": "Academic Staff"
+        },
+        "classes": "col-md-12 p-0",
+        "component": "MyTitle"
+      },
+      {
+        "component": "Person",
+        "classes": "container mx-auto mt-3",
+        "tag": "physics",
+        "props": {
+          "type": "column",
+          "data": [
+          ]
+        }
+      }
+    ]
+  }
+]

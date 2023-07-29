@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="انگلیسی" transform="translate(-175 -44)">
+    <g id="Rectangle_41" data-name="Rectangle 41" transform="translate(175 44)" fill="none" stroke="#0065bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9">
+      <rect width="33" height="33" rx="5" stroke="none"/>
+      <rect x="0.95" y="0.95" width="31.1" height="31.1" rx="4.05" fill="none"/>
+    </g>
+    <text id="EN" transform="translate(181 66)" fill="#0065bb" stroke="#0065bb" stroke-width="0.5" font-size="18" font-family="Corbel"><tspan x="0" y="0">EN</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+[
+  {
+    "component": "Row",
+    "classes": "row m-0",
+    "components": [
+      {
+        "classes": "",
+        "component": "HeaderImage",
+        "props": {
+          "data": [
+            {
+              "id": 20,
+              "image": "/media/website/hushaan-fromtinyisles-KfCCOfmhPYc-unsplash.jpg",
+              "title": "ریاست"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "component": "Row",
+    "classes": "row m-0 background0 container mx-auto rounded mt-ne-5 position-relative",
+    "components": [
+      {
+        "component": "Person",
+        "tag": "presidency_boss",
+        "name": "ریاست",
+        "props": {
+          "type": "row",
+          "imageSize": 280
+        }
+      },
+      {
+        "component": "Introduction",
+        "classes": "mt-5 mb-5",
+        "name": "معرفی ریاست",
+        "tag": "presidency",
+        "props": {
+        }
+      }
+    ]
+  },
+  {
+    "component": "Row",
+    "classes": "mt-5 mb-5",
+    "components": [
+      {
+        "component": "MyTitle",
+        "props": {
+          "title": "مشاورین ریاست",
+          "align": "center"
+        }
+      },
+      {
+        "component": "Person",
+        "classes": "container mx-auto mt-3",
+        "tag": "presidency_advisers",
+        "name": "مشاورین ریاست",
+        "props": {
+          "type": "column"
+        }
+      }
+    ]
+  }
+]

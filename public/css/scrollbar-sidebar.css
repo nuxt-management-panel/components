@@ -1,0 +1,36 @@
+.scrollbar-sidebar .os-scrollbar-handle {
+  width: 2px;
+  background-color: #E1E1E1;
+  border-radius: 7px;
+}
+
+.scrollbar-sidebar .os-scrollbar-handle:hover {
+  width: 8px;
+  cursor: pointer;
+  background-color: #E1E1E1;
+  border-radius: 7px;
+}
+
+.os-scrollbar-unusable.os-scrollbar-visible {
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .scrollbar-sidebar .os-scrollbar-handle {
+    width: 8px;
+    background-color: #E1E1E1;
+  }
+}
+.scrollbar-sidebar {
+  display: block !important;
+}
+
+.os-viewport {
+  scrollbar-width: none;
+}
+
+.os-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+/*# sourceMappingURL=scrollbar-sidebar.css.map */

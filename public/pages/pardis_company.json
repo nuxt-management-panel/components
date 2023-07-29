@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "classes": "row",
+      "component": "Row",
+      "components": [
+        {
+          "tag": "index",
+          "name": "شرکت ها",
+          "props": {
+          },
+          "classes": "col-12 p-0",
+          "component": "CompanyWithFilters",
+          "page_size": 20
+        }
+      ]
+    }
+  ]
+}

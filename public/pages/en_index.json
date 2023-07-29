@@ -1,0 +1,120 @@
+[
+  {
+    "name": "row 1",
+    "classes": "row",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "en_en_index",
+        "name": "اسلایدر",
+        "props": {
+        },
+        "classes": "col-12 p-0",
+        "component": "Slider"
+      }
+    ]
+  },
+  {
+    "name": "row 2",
+    "classes": "container mx-auto",
+    "component": "Row",
+    "components": [
+      {
+        "tag": "en_index_info",
+        "name": "نمایه آموزشی",
+        "props": {
+          "id": "services",
+          "type": "simple",
+          "margin": 10,
+          "box_type": 0,
+          "iconSize": 65,
+          "show-count": 6
+        },
+        "classes": "services col-12 position-relative",
+        "component": "SlideBox"
+      }
+    ]
+  },
+  {
+    "name": "row 3",
+    "classes": "row container mx-auto mt-5",
+    "component": "Row",
+    "components": [
+      {
+        "classes": "col-md-8 m-0 p-0",
+        "component": "Row",
+        "components": [
+          {
+            "props": {
+              "align": "start",
+              "title": "News"
+            },
+            "classes": "p-0 m-0 ms-2",
+            "component": "MyTitle"
+          },
+          {
+            "tag": "en_index",
+            "name": "اخبار",
+            "props": {
+              "type": "index"
+            },
+            "classes": "m-0 p-0 mt-4",
+            "component": "News"
+          }
+        ]
+      },
+      {
+        "classes": "col-md-4 m-0 p-0",
+        "component": "Row",
+        "components": [
+          {
+            "tag": "fa_en_index",
+            "props": {
+              "align": "start",
+              "title": "Notifications"
+            },
+            "classes": "p-0 m-0 ms-2",
+            "component": "MyTitle"
+          },
+          {
+            "tag": "en_index",
+            "name": "اطلاعیه ها",
+            "props": {
+            },
+            "classes": "p-0 m-0 mt-4",
+            "component": "Notifications"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "row 7",
+    "classes": "mt-5 col-12 container mx-auto",
+    "component": "Row",
+    "components": [
+      {
+        "props": {
+          "align": "center",
+          "title": "Faculties"
+        },
+        "classes": "col-md-12 p-0",
+        "component": "MyTitle"
+      },
+      {
+        "tag": "en_index_faculties",
+        "name": "دانشکده ها",
+        "props": {
+          "id": "faculties",
+          "type": "simple",
+          "margin": 10,
+          "iconSize": 100,
+          "background": "bg-white",
+          "show-count": 7
+        },
+        "classes": "mt-3 row col-md-12",
+        "component": "SlideBox"
+      }
+    ]
+  }
+]

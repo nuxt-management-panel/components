@@ -1,0 +1,76 @@
+[
+  {
+    "group": "Website",
+    "menu": [
+      {
+        "name": "Main Page",
+        "icon": [
+          {
+            "class": "icon-Location",
+            "parts": 1
+          }
+        ],
+        "link": "",
+        "submenu": []
+      },
+      {
+        "name": "Posts",
+        "icon": [
+          {
+            "class": "icon-Calculator",
+            "parts": 8
+          }
+        ],
+        "link": "",
+        "submenu": [
+          {
+            "name": "somthing",
+            "link": "/panel/presidency"
+          },
+          {
+            "name": "another thing",
+            "link": "/panel/benefactors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Shop",
+    "menu": [
+      {
+        "name": "Main Page",
+        "icon": [
+          {
+            "class": "icon-Location",
+            "parts": 1
+          }
+        ],
+        "link": "",
+        "submenu": []
+      },
+      {
+        "name": "Products",
+        "icon": [
+          {
+            "class": "icon-Location",
+            "parts": 1
+          }
+        ],
+        "link": "",
+        "submenu": []
+      },
+      {
+        "name": "Orders",
+        "icon": [
+          {
+            "class": "icon-Location",
+            "parts": 1
+          }
+        ],
+        "link": "",
+        "submenu": []
+      }
+    ]
+  }
+]
