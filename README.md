@@ -1,22 +1,11 @@
 # screen shots
 
-![Screenshot](./ScreenShots/Screenshot 2023-07-28 at 16.31.45.png)
-![Screenshot](screenshot.png)
-![Screenshot](screenshot.png)
-![Screenshot](screenshot.png)
-![Screenshot](screenshot.png)
+
+<img src="./ScreenShots/Screenshot 2023-07-28 at 16.31.45.png"/>    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.57.44.png"/>
+<img src="./ScreenShots/Screenshot 2023-07-28 at 16.58.07.png"/>    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.58.19.png"/>
+<img src="./ScreenShots/Screenshot 2023-07-29 at 09.05.53.png"/>    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.58.40.png"/>    
 
 
-
-```html
-
-    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.31.45.png"/>
-    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.57.44.png"/>
-    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.58.07.png"/>
-    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.58.19.png"/>
-    <img src="./ScreenShots/Screenshot 2023-07-28 at 16.58.40.png"/>
-
-```
 
 # Nuxt 3 Minimal Starter
 
